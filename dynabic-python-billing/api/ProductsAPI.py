@@ -369,7 +369,7 @@ class ProductsAPI(object):
         resourcePath = '/products/{productId}'
         resourcePath = resourcePath.replace('{format}', 'json')
         resourcePath = resourcePath.replace('*', '')
-        method = 'POST'
+        method = 'DELETE'
 
         queryParams = {}
         headerParams = {}
